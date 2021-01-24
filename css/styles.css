@@ -357,12 +357,14 @@ address {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 1360px;
+    margin-top: 94px;
+    margin-bottom: 94px;
 }
 
 .portfolio-section-list {
     display: flex;
     align-items: center;
-    margin-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -379,6 +381,7 @@ address {
 .examples-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .portfolio-section-list-button {
@@ -410,26 +413,34 @@ address {
 }
 
 .examples-list-name {
-    margin-bottom: 4px;
-    width: 322px;
-    height: 36px;
+margin-bottom: 4px;
+width: 322px;
+height: 36px;
+}
+
+.examples-list-name-link {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
+
 .examples-list-item-section {
-    margin-bottom: 20px;
-    width: 322px;
-    height: 30px;
+margin-bottom: 20px;
+width: 322px;
+height: 30px;
+}
+
+.examples-list-item-section-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: #757575;
 }
-/*====== END PORTFOLIO SECTIONS======*/
-.footer-margin {
-    margin-top: 64px;
+
+.marginbot {
+    margin-bottom: 0;
 }
+/*====== END PORTFOLIO SECTIONS======*/
