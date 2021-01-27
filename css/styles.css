@@ -142,10 +142,7 @@ address {
 .contact-phone:focus {
     color: var(--accent-color);
 }
-.line {
-    border: 1px solid #ECECEC;
-    margin: 0;
-}
+
 /*======END HEADER======*/
 
 /*======HERO======*/
@@ -201,8 +198,8 @@ address {
 .advantages-list {
     display: flex;
     align-content: center;
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .advantages-list-item:not(:last-child) {
@@ -373,6 +370,7 @@ address {
 .portfolio-section {
     padding-top: 94px;
     padding-bottom: 94px;
+    border: 1px solid #ECECEC;
 }
 
 .portfolio-section .container {
@@ -394,7 +392,9 @@ address {
 .examples-list-item {
     margin-bottom: 30px;
     width: 370px;
-    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 }
 
 .examples-list {
