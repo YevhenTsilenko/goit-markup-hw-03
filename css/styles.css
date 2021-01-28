@@ -38,6 +38,10 @@ address {
       display: block;
   }
 
+  button {
+      font-family: inherit;
+  }
+
   .container {
     width: 1200px;
     padding-left: 15px;
@@ -46,6 +50,10 @@ address {
   }
 
 /*======HEADER======*/
+
+.header {
+    border: 1px solid #ECECEC;
+}
 
 .header .container {
     display: flex;
@@ -195,11 +203,14 @@ address {
 
 /*======ADVANTAGES======*/
 
+.advantages {
+    padding-top: 94px;
+}
+
 .advantages-list {
     display: flex;
     align-content: center;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    
 }
 
 .advantages-list-item:not(:last-child) {
@@ -370,7 +381,6 @@ address {
 .portfolio-section {
     padding-top: 94px;
     padding-bottom: 94px;
-    border: 1px solid #ECECEC;
 }
 
 .portfolio-section .container {
